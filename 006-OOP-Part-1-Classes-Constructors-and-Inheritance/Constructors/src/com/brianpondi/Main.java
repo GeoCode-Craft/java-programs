@@ -11,7 +11,7 @@ public class Main {
         //Constructor with parameters
 
         Account brianAccount = new Account("XD4566",3_000, "Brian Pondi",
-                "brian.letscode@gmail.com",710318300);
-        brianAccount.withdraw(500.00);
+                "brian.letscode@gmail.com","710318300");
+        brianAccount.withdraw(1_000);
     }
 }

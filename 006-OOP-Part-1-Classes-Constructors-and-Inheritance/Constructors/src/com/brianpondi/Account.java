@@ -5,19 +5,25 @@ public class Account {
     private double balance;
     private String customerName;
     private String customerEmailAddress;
-    private int customerPhoneNumber;
+    private String customerPhoneNumber;
 
-    //Constructor
+    //Constructor 1
     public Account(){
         System.out.println("Empty Constructor");
     }
+    //Constructor 2
     public Account(String number, double balance, String customerName, String customerEmailAddress,
-                   int customerPhoneNumber){
+                   String customerPhoneNumber){
         this.number =number;
         this.balance = balance;
         this.customerName = customerName;
         this.customerEmailAddress =customerEmailAddress;
         this.customerPhoneNumber = customerPhoneNumber;
+    }
+
+    //Constructor 3
+    public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this( "DG789",0.00,customerName,customerEmailAddress,customerPhoneNumber);
     }
 
     public String getNumber() {
@@ -52,11 +58,11 @@ public class Account {
         this.customerEmailAddress = customerEmailAddress;
     }
 
-    public int getCustomerPhoneNumber() {
+    public String getCustomerPhoneNumber() {
         return customerPhoneNumber;
     }
 
-    public void setCustomerPhoneNumber(int customerPhoneNumber) {
+    public void setCustomerPhoneNumber(String customerPhoneNumber) {
         this.customerPhoneNumber = customerPhoneNumber;
     }
 
