@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/009-Inner-and-Abstract-Classes-&amp;-Interfaces.iml" filepath="$PROJECT_DIR$/.idea/009-Inner-and-Abstract-Classes-&amp;-Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractClassesChallenge/AbstractClassesChallenge.iml" filepath="$PROJECT_DIR$/AbstractClassesChallenge/AbstractClassesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClassesChallenge/InnerClassesChallenge.iml" filepath="$PROJECT_DIR$/InnerClassesChallenge/InnerClassesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceChallenge/InterfaceChallenge.iml" filepath="$PROJECT_DIR$/InterfaceChallenge/InterfaceChallenge.iml" />
+    </modules>
+  </component>
+</project>
